@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 60px;
+            text-align: center;
+            color: rgb(7, 7, 83);
+            text-shadow: grey 2px 5px 2px;
+        }
+        .parent-div{
+            /* border: solid 1px red; */
+            width: 100%;
+            min-height: 500px;
+            display: flex;
+            padding: 20px;
+            background-color: rgb(179, 216, 216);
+        }
+        .left{
+            width: 50%;
+            border: solid 3px rgb(230, 165, 165);
+            height: 100%;
+            background-color: rgb(179, 216, 216);
+
+        }
+        body{
+            background-color: rgb(179, 216, 216);
+  
+        }
+        .left div{
+            border: solid 3px rgb(224, 147, 147);
+            width: 80%;
+            margin: auto;
+            height: 96px;
+            padding: 20px;
+            margin-top:10px;
+            cursor: pointer;
+            background-color: rgb(168, 168, 216);
+            border-radius: 20px;
+            transition: all;
+        }
+        .a:hover{
+            background-color: rgb(194, 189, 189);
+            color: blue;
+        }
+        .div-right{
+            border: solid 3px rgb(224, 147, 147);
+            min-height: 500px;
+            width: 50%;
+            background-image: url(./about_tula.webp);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        button{
+            margin-left: 40%;
+            margin-top: 5%;
+            margin-bottom: 2%;
+            padding: 5px;
+            cursor: pointer;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+        p{
+            font-size: 30px;
+            text-align: center;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        h3{
+            text-decoration: underline;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hr@collegetour.in -->
+    <h1>Don Bosco Institute of Technology</h1>
+    <p>Admission open here</p>
+    <h3>What we offer  ↓</h3>
+   <div class="parent-div">
+    <div class="left">
+        <div class="a">. Stay One Step Ahead With Our PlaceMent Drives
+            Online MBA
+          300+ Hiring Partners
+          3000+ Job Opportunities</div>
+          <div class="a">
+            Distance Education At India's Top Ranked University
+            MBA, BBA, BCA, MCA, B.com BA
+            Last Date of Admission Apply Now
+          </div>
+          <div class="a">
+            ARE YOU A DIPLOMA HOLDER?
+          GET A DEGREE ONLINE NOW.
+           MBA|BBA|MCA|BCA|BCOM|BA
+    
+          </div>
+          <div class="a">
+            Admission Open 
+            AICTE APPROVED
+            MCA|MBA 
+          Online Programmes
+         Earn Online Degree With The Comforts Of Your Home 
+          </div>
+          <div class="a">
+            Enroll in The Online MBA Program Form India's Top RanKe.
+          </div>
+          <button class="a">Enroll now</button>
+    </div>
+    <div class="div-right">
+
+    </div>
+   
+   </div>
+  
+</body>
+</html>
